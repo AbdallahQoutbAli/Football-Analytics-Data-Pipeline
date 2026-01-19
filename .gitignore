@@ -1,0 +1,130 @@
+# ========================================
+# Environment & Credentials
+# ========================================
+.env
+.env.local
+.env.production
+*.env
+secrets/
+credentials/
+
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+.venv/
+
+# ========================================
+# Databricks
+# ========================================
+.databricks/
+*.dbc
+
+# ========================================
+# Jupyter Notebook
+# ========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================================
+# IDE
+# ========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# ========================================
+# Power BI
+# ========================================
+*.pbix.tmp
+*.pbit.tmp
+
+# ========================================
+# Logs
+# ========================================
+*.log
+logs/
+log/
+
+# ========================================
+# OS Generated
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Data Files (too large for git)
+# ========================================
+*.csv
+*.json
+!**/config/*.json
+*.parquet
+*.avro
+*.orc
+data/
+raw_data/
+processed_data/
+
+# ========================================
+# Snowflake
+# ========================================
+snowflake_private_key.p8
+*.p8
+*.pem
+
+# ========================================
+# Azure
+# ========================================
+*.publishsettings
+azure.json
+
+# ========================================
+# Terraform (if used)
+# ========================================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# ========================================
+# Test & Coverage
+# ========================================
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
