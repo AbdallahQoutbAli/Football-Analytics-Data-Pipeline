@@ -445,6 +445,6 @@ Contributions are welcome! Please follow these steps:
 
 **⭐ Star this repo if you find it useful!**
 
-Made with ❤️ for Football & Data Engineering
+Made with ❤️ for Football & Data Engineering!
 
 </div>
